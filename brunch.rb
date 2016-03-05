@@ -4,7 +4,7 @@ require 'colorize'
 @dirs = []
 @stats = {}
 
-#get a list of directories in our pwd
+#get a list of directories in our workspace
 def get_dirs
     Dir.chdir(Dir.home + '/workspace')
 	Dir.glob('*/').each do |d|
@@ -17,7 +17,7 @@ def get_branches
 
     @dirs.each do |d|
             Dir.chdir(d) do
-        	   Open3.popen3('git branch') do |stdin, stdout, stderr|
+        	Open3.popen3('git branch') do |stdin, stdout, stderr|
                 @stats[d] = stdout.read
                end
             end
