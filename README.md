@@ -10,8 +10,6 @@ $ cd brunch
 $ bundle install
 ```
 
-r2u pulls the info about the repos and URIs from the config YAMLs of the book repos. Make sure that `docs-book-cloudfoundry`, `docs-book-pivotalcf`, and `docs-book-runpivotal` are all in your `workspace` directory.
-
 ###Usage
 
 Run `brunch` from your `~/workspace` directory.
