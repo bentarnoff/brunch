@@ -77,7 +77,7 @@ elsif ARGV[0] == "-b"
 elsif ARGV.empty?
     puts "\nNAME:\n".bold + "brunch".red + " tells you what git branches you're on."
     puts "\nUSAGE:\n".bold + "Run " + "brunch".red + " from your ~/workspace directory."
-    puts "\nFLAGS:\n".bold + "brunch -a" + "\nLists your current git branch in all directories under your present working directory.".green
+    puts "\nFLAGS:\n".bold + "brunch -a" + "\nLists your current git branch in all directories in your workspace.".green
     puts "\nbrunch -m" + "\nLists only those directories where your current git branch is".green + " master.".green.bold
     puts "\nbrunch -n" + "\nLists only those directories where your current git branch is".green + " not master.".green.bold
     puts "\nbrunch -p" + "\nLists only those directories where your current git branch is".green + " pre-release.".green.bold

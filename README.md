@@ -16,7 +16,7 @@ Run `brunch` from your `~/workspace` directory.
 
 `brunch -a`
 
-**Lists your current git branch in all directories under your present working directory.**
+**Lists your current git branch in all directories in your `workspace`.**
 
 `brunch -m`
 
