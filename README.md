@@ -12,7 +12,7 @@ $ bundle install
 
 ###Usage
 
-Run `brunch` from your `~/workspace` directory.
+So long as your `~/workspace` directory includes all your repos, you can run `brunch` from anywhere.
 
 `brunch -a`
 
